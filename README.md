@@ -31,5 +31,5 @@ _"Learning is a continuous journey. Each resource adds a new dimension to your u
 
 You can view the live version of my portfolio website hosted on GitHub Pages by following this link:
 
-[View My Portfolio Website](https://ermanur1.github.io/portfolio/index.html)
+[View My Portfolio Website](https://ermanur1.github.io/portfolio/)
 
