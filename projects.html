@@ -3,224 +3,197 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projects</title>
+  <meta name="description" content="Projects by Ermias Nursefa — C/C++, Python, web, Arduino, SolidWorks, MATLAB, and networking.">
+  <title>Projects — Ermias Nursefa</title>
   <link rel="stylesheet" href="style2.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Protest+Guerrilla&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-
-  <header class="home">
-     <nav>
-        <a href="index.html">Home</a>
-     </nav>
+  <header class="site-header">
+    <nav class="nav">
+      <a href="index.html" class="brand">EN<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
   </header>
-  <h2>Projects</h2>
 
-  <div class="portfolio-container">
-    <header>
-      <h2>C/C++</h2>
-    </header>
-    <section class="projects">
-      <div class="row">
-        <div class="project-card">
-          <img src="./pictures/rock.png" alt="Rock Paper Scissors" class="project-image">
-          <div class="project-info">
-            <h3>ROCK PAPER SCISSORS</h3>
-            <p>
-              Basic game where you play Rock, Paper, Scissors against the computer. 
-              The game works in the console (or terminal).
-            </p>
-          </div>
+  <main>
+    <section class="projects-hero">
+      <div class="container">
+        <p class="eyebrow">Selected work</p>
+        <h1>Projects</h1>
+        <p class="section-sub">A mix of software, embedded systems, mechanical design, and networking.</p>
+      </div>
+    </section>
+
+    <!-- C/C++ -->
+    <section class="project-group">
+      <div class="container">
+        <h2 class="group-title">C / C++</h2>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-thumb"><img src="./pictures/rock.png" alt="Rock Paper Scissors game" loading="lazy"></div>
+            <div class="project-info">
+              <h3>Rock Paper Scissors</h3>
+              <p>A console game where you play Rock, Paper, Scissors against the computer, running in the terminal.</p>
+            </div>
+          </article>
         </div>
       </div>
     </section>
-  </div>
 
-  <div class="portfolio-container">
-    <header>
-      <h2>PYTHON</h2>
-    </header>
-    <section class="projects">
-      <div class="row">
-        <div class="project-card">
-          <img src="./pictures/pyCal.png" alt="Calculator" class="project-image">
-          <div class="project-info">
-            <h3>CALCULATOR</h3>
-            <p>
-              Advanced calculator is a Python application with a graphical user interface (GUI) 
-              created using the Tkinter library. It performs a variety of mathematical calculations, 
-              including basic arithmetic, scientific functions (like trigonometric functions and logarithms),
-              and supports complex expressions with parentheses.
-            </p>
-          </div>
-        </div>
-        <div class="project-card">
-          <img src="./pictures/pyTODO.png" alt="To Do List" class="project-image">
-          <div class="project-info">
-            <h3>TO DO LIST</h3>
-            <p>
-              Application is a simple software tool that helps you keep track of tasks you need to complete.
-              It features a graphical user interface (GUI) built with Python's Tkinter library, allowing you
-              to interact with it using buttons and text fields.
-            </p>
-          </div>
+    <!-- Python -->
+    <section class="project-group">
+      <div class="container">
+        <h2 class="group-title">Python</h2>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-thumb"><img src="./pictures/pyCal.png" alt="Calculator app" loading="lazy"></div>
+            <div class="project-info">
+              <h3>Scientific Calculator</h3>
+              <p>A Tkinter GUI calculator handling basic arithmetic, scientific functions (trig, logarithms), and complex expressions with parentheses.</p>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-thumb"><img src="./pictures/pyTODO.png" alt="To-do list app" loading="lazy"></div>
+            <div class="project-info">
+              <h3>To-Do List</h3>
+              <p>A task-tracking app with a Tkinter interface — add, manage, and check off tasks using buttons and text fields.</p>
+            </div>
+          </article>
         </div>
       </div>
     </section>
-  </div>
 
-  <div class="portfolio-container">
-    <header>
-      <h2>HTML</h2>
-    </header>
-    <section class="projects">
-      <div class="row">
-        <div class="project-card">
-          <img src="./pictures/web.png" alt="Portfolio Website" class="project-image">
-          <div class="project-info">
-            <h3>PORTFOLIO WEBSITE</h3>
-            <p>
-              This website that you're looking at right now is one of my projects using HTML.
-            </p>
-            <p>
-              <a href="https://ermanur1.github.io/portfolio/index.html" target="_blank" rel="noopener noreferrer">View Project</a>
-
-          </p>
-          </div>
+    <!-- Web -->
+    <section class="project-group">
+      <div class="container">
+        <h2 class="group-title">Web</h2>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-thumb"><img src="./pictures/web.png" alt="Portfolio website" loading="lazy"></div>
+            <div class="project-info">
+              <h3>Portfolio Website</h3>
+              <p>The very site you're looking at — designed and built with HTML and CSS.</p>
+              <a href="index.html" class="project-link">View project →</a>
+            </div>
+          </article>
         </div>
       </div>
     </section>
-  </div>
 
-  <div class="portfolio-container">
-    <header>
-      <h2>ARDUINO</h2>
-    </header>
-    <section class="projects">
-      <div class="row">
-        <div class="project-card">
-          <img src="./pictures/irr.png" alt="Automatic Irrigation System" class="project-image">
-          <div class="project-info">
-            <h3>Automatic Irrigation System</h3>
-            <p>
-              Designed to manage watering for plants or crops using two separate water sources 
-              or irrigation zones. This system optimizes water usage by controlling two pumps independently, 
-              allowing for more precise and efficient irrigation based on plant needs.
-            </p>
-          </div>
-        </div>
-        <div class="project-card">
-          <img src="./pictures/gas.png" alt="Gas Leakage and Water Detector" class="project-image">
-          <div class="project-info">
-            <h3>Gas Leakage and Water Detector</h3>
-            <p>
-              Involves creating a system to detect gas and water leaks using an Arduino microcontroller. 
-              The system helps in identifying potentially dangerous situations by monitoring gas and water levels and 
-              alerting the user if a leak is detected.
-            </p>
-          </div>
-        </div>
-        <div class="project-card">
-          <img src="./pictures/locker.png" alt="Door Locking System with Pincode" class="project-image">
-          <div class="project-info">
-            <h3>Door Locking System with Pincode</h3>
-            <p>
-              A security solution that controls access to a door based on a numeric code. The system uses an Arduino 
-              microcontroller to manage the input from a keypad, verify the entered code, and activate a locking mechanism 
-              when the correct pincode is entered.
-            </p>
-          </div>
+    <!-- Arduino -->
+    <section class="project-group">
+      <div class="container">
+        <h2 class="group-title">Arduino</h2>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-thumb"><img src="./pictures/irr.png" alt="Automatic irrigation system" loading="lazy"></div>
+            <div class="project-info">
+              <h3>Automatic Irrigation System</h3>
+              <p>Manages watering across two zones with independently controlled pumps, optimizing water use for precise, efficient irrigation.</p>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-thumb"><img src="./pictures/gas.png" alt="Gas and water leak detector" loading="lazy"></div>
+            <div class="project-info">
+              <h3>Gas Leakage &amp; Water Detector</h3>
+              <p>An Arduino system that monitors gas and water levels and alerts the user when a potentially dangerous leak is detected.</p>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-thumb"><img src="./pictures/locker.png" alt="Keypad door lock" loading="lazy"></div>
+            <div class="project-info">
+              <h3>Pincode Door Lock</h3>
+              <p>A keypad-based access system: the Arduino reads the entered code, verifies it, and triggers the locking mechanism on a correct pin.</p>
+            </div>
+          </article>
         </div>
       </div>
     </section>
-  </div>
 
-  <div class="portfolio-container">
-    <header>
-      <h2>SOLIDWORKS</h2>
-    </header>
-    <section class="projects">
-      <div class="row">
-        <div class="project-card">
-          <img src="./pictures/marign.png" alt="Marine Engine Connecting Rod End" class="project-image">
-          <div class="project-info">
-            <h3>Marine Engine Connecting Rod End</h3>
-            <p>
-              Developed a detailed 3D model of a connecting rod end for a marine engine using SolidWorks. 
-              The project involved designing a critical engine component that connects the piston to the crankshaft, 
-              ensuring optimal performance and durability under marine conditions.
-            </p>
-          </div>
-        </div>
-        <div class="project-card">
-          <img src="./pictures/masinko.JPG" alt="Masinko" class="project-image">
-          <div class="project-info">
-            <h3>Masinko</h3>
-            <p>
-              Created a detailed 3D model of the Masinko, a traditional Ethiopian one-stringed musical instrument, 
-              using SolidWorks. The project involved designing this culturally significant instrument, focusing 
-              on its structural components, aesthetics, and functionality.
-            </p>
-          </div>
+    <!-- SolidWorks -->
+    <section class="project-group">
+      <div class="container">
+        <h2 class="group-title">SolidWorks</h2>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-thumb"><img src="./pictures/marign.png" alt="Marine engine connecting rod end" loading="lazy"></div>
+            <div class="project-info">
+              <h3>Marine Engine Connecting Rod End</h3>
+              <p>A detailed 3D model of a connecting rod end that links piston to crankshaft, designed for performance and durability in marine conditions.</p>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-thumb"><img src="./pictures/masinko.JPG" alt="Masinko 3D model" loading="lazy"></div>
+            <div class="project-info">
+              <h3>Masinko</h3>
+              <p>A 3D model of the Masinko, a traditional one-stringed Ethiopian instrument — focused on structure, aesthetics, and functionality.</p>
+            </div>
+          </article>
         </div>
       </div>
     </section>
-  </div>
 
-  <div class="portfolio-container">
-    <header>
-      <h2>MATLAB</h2>
-    </header>
-    <section class="projects">
-      <div class="row">
-        <div class="project-card">
-          <img src="./pictures/matlab.png" alt="Image Proccessing" class="project-image">
-          <div class="project-info">
-            <h3>Image Proccessing</h3>
-            <p>
-              The project includes a comprehensive analysis of the original image alongside processed versions to 
-              illustrate the effects of each technique. By visualizing these transformations, the project aims to 
-              provide insights into the practical applications and benefits of these image processing methods. <br>
-                <ul>
-                  <h3>Key Techniques Used:</h3>
-                    <li>Grayscale Conversion</li>
-                    <li>Gaussian Filtering</li>
-                    <li>Canny Edge Detection</li>
-                    <li>Histogram Equalization</li>
-                  
-                </ul>
-            </p>
-          </div>
-        </div>
-    </section>
-  </div>
-
-  <div class="portfolio-container">
-    <header>
-      <h2>Networking</h2>
-    </header>
-    <section class="projects">
-      <div class="row">
-        <div class="project-card">
-          <img src="./pictures/homenet.png" alt="Home Network" class="project-image">
-          <img src="./pictures/homenet2.png" alt="Home Network Diagram" class="project-image">
-          <div class="project-info">
-            <h3>Home Network</h3>
-            <p>
-              This project demonstrates the design and configuration of a home network using Cisco Packet Tracer,
-              a powerful network simulation tool. The goal was to create a functional and scalable home network,
-              providing a practical example of network setup and management.
-            </p>
-          </div>
+    <!-- MATLAB -->
+    <section class="project-group">
+      <div class="container">
+        <h2 class="group-title">MATLAB</h2>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-thumb"><img src="./pictures/matlab.png" alt="Image processing results" loading="lazy"></div>
+            <div class="project-info">
+              <h3>Image Processing</h3>
+              <p>Compares original and processed images to illustrate common image-processing techniques and their practical effects.</p>
+              <ul class="chip-list">
+                <li>Grayscale conversion</li>
+                <li>Gaussian filtering</li>
+                <li>Canny edge detection</li>
+                <li>Histogram equalization</li>
+              </ul>
+            </div>
+          </article>
         </div>
       </div>
     </section>
-  </div>
+
+    <!-- Networking -->
+    <section class="project-group">
+      <div class="container">
+        <h2 class="group-title">Networking</h2>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-thumb thumb-stack">
+              <img src="./pictures/homenet.png" alt="Home network topology" loading="lazy">
+              <img src="./pictures/homenet2.png" alt="Home network diagram" loading="lazy">
+            </div>
+            <div class="project-info">
+              <h3>Home Network</h3>
+              <p>Design and configuration of a functional, scalable home network built and simulated in Cisco Packet Tracer.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <a href="index.html" class="btn btn-primary">← Back to Home</a>
+      <p class="copyright">© <span id="year"></span> Ermias Nursefa.</p>
+    </div>
+  </footer>
+
+  <script>
+    const header = document.querySelector('.site-header');
+    window.addEventListener('scroll', () =>
+      header.classList.toggle('scrolled', window.scrollY > 8)
+    );
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
