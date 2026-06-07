@@ -1,250 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ermias</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Protest+Guerrilla&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ermias Nursefa — Electromechanical Engineering student at AASTU. Portfolio of engineering, software, and embedded systems projects.">
+  <title>Ermias Nursefa — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#education">Educational Background</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header class="site-header" id="top">
+    <nav class="nav">
+      <a href="#hero" class="brand">EN<span>.</span></a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <section id="about" class="one">
-        <div class="photo">
-            <img src="./pictures/download.png" alt="Ermias's Photo" width="250" height="250">
+  <main>
+    <!-- HERO -->
+    <section id="hero" class="hero">
+      <div class="hero-inner">
+        <div class="hero-text">
+          <p class="eyebrow">Electromechanical Engineering · AASTU</p>
+          <h1>Hi, I'm <span class="accent">Ermias Nursefa</span></h1>
+          <p class="lede">
+            A 4th-year engineering student blending mechanical design, embedded systems,
+            and web development — building things that bridge hardware and code.
+          </p>
+          <div class="hero-actions">
+            <a href="projects.html" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+          </div>
         </div>
-        <div class="about">
-            <h1>About Me</h1>
-            <p>
-                Hello! I’m Ermias Nursefa, a dedicated and enthusiastic Electromechanical Engineering student 
-                in my 4th year at Addis Ababa Science and Technology University (AASTU).
-            </p>
-            <p>
-                My passion for the tech world and web development drives me to explore the intersection of 
-                engineering and technology, constantly seeking innovative solutions and fresh perspectives.
-            </p>
+        <div class="hero-photo">
+          <img src="./pictures/download.png" alt="Portrait of Ermias Nursefa" width="280" height="280">
         </div>
-    </section>
-    <hr color="blue">
-
-    <section id="education">
-        <h2>Educational Background</h2>
-        <ul>
-            <li>
-                <h3>Bachelor’s Degree in Electromechanical Engineering</h3>
-                <ul >
-                    <li class="school">
-                        Addis Ababa Science and Technology University (AASTU)
-                        Currently pursuing my degree on a government-based scholarship. Additionally, I am actively engaged in specialized courses through AASTU Cisco Academy, including:
-                        <ul id="cisco">
-                            <li>
-                                CCNA (Cisco Certified Network Associate)
-                            </li>
-                            <li>
-                                Cisco Cyber Security Analysis, funded by a Cisco scholarship
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <h3>High School Diploma</h3>
-                <ul>
-                    <li class="school">
-                        Addis Ketema Secondary and Preparatory School
-                    </li>
-                </ul>
-            </li>
-        </ul>
-    <a href="./pictures/cv.png" download="Ermias_CV.png" class="download-btn">Download CV</a>
+      </div>
     </section>
 
-    <section id="skills" class="container">
-        <h1>Select a skill from the drop down to see details.</h1>
-        <label for="skills"><b>Skills</b></label>
-        <select id="skills" onchange="location = this.value;">
-            <option value="">--Select a Skill--</option>
-            <option value="#cpp">C/C++</option>
-            <option value="#python">Python</option>
-            <option value="#html">HTML</option>
-            <option value="#arduino">Arduino</option>
-            <option value="#solidworks">SolidWorks</option>
-            <option value="#matlab">MatLab</option>
-            <option value="#ccna">Networking</option>
-        </select>
-
-        <div id="cpp" class="skill-details">
-            <h2>C/C++</h2>
-            <p>
-                I have a solid foundational knowledge of C/C++. <br>
-                I am capable of writing and understanding intermediate-level C/C++ code. 
-                Additionally, I have completed a course in Object-Oriented Programming (OOP) with C/C++,
-                earning a perfect A in my bachelor’s program.
-            </p>
-            
-            <div class="rating">
-                <span class="star filled">&#9733;</span>
-                <span class="star filled">&#9733;</span>
-                <span class="star filled">&#9733;</span>
-                <span class="star filled">&#9733;</span>
-                <span class="star">&#9733;</span>
-                <p>4/5</p>
-            </div>
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="prose">
+          <p>
+            I'm a dedicated and curious Electromechanical Engineering student in my final year at
+            Addis Ababa Science and Technology University (AASTU), studying on a government scholarship.
+          </p>
+          <p>
+            My passion sits at the intersection of engineering and technology. I enjoy exploring how
+            mechanical systems, electronics, and software come together — whether that's modeling a part
+            in SolidWorks, prototyping with Arduino, or building for the web. I'm always looking for
+            innovative solutions and fresh perspectives.
+          </p>
         </div>
-
-        <div id="python" class="skill-details">
-            <h2>Python</h2>
-            <p>
-                I have a solid foundational knowledge of Python. <br>
-                I am capable of writing and understanding intermediate-level Python code. 
-                Additionally, I have completed a course in Object-Oriented Programming (OOP) with Python, 
-                earning a perfect A in my bachelor's program.
-            </p>
-            
-            <div class="rating">
-                <span class="star filled">&#9733;</span>
-                <span class="star filled">&#9733;</span>
-                <span class="star filled">&#9733;</span>
-                <span class="star filled">&#9733;</span>
-                <span class="star">&#9733;</span>
-                <p>4/5</p>
-            </div>
-        </div>
-
-        <div id="html" class="skill-details">
-            <h2>HTML</h2>
-            <p>
-                I am confident in working with HTML and am continuously seeking to improve my skills. <br>
-                Additionally, I am currently participating in the PLP August cohort to further enhance 
-                my web development expertise.
-            </p>
-            
-            <div class="rating">
-                <span class="star filled">&#9733;</span>
-                <span class="star filled">&#9733;</span>
-                <span class="star filled">&#9733;</span>
-                <span class="star filled">&#9733;</span>
-                <span class="star">&#9733;</span>
-                <p>4/5</p>
-            </div>
-        </div>
-
-        <div id="arduino" class="skill-details">
-            <h2>Arduino</h2>
-            <p>
-                I gained foundational knowledge in Arduino programming through a course offered by KAIST University and conducted 
-                at Addis Ababa Science and Technology University (AASTU). <br>
-                Over the past year, I have been actively working with Arduino, applying my skills to a range of projects 
-                and experiments. This practical experience has significantly enhanced my understanding and proficiency 
-                in microcontroller-based systems.
-            </p>
-            
-            <div class="rating">
-                <span class="star filled">&#9733;</span>
-                <span class="star filled">&#9733;</span>
-                <span class="star filled">&#9733;</span>
-                <span class="star filled">&#9733;</span>
-                <span class="star">&#9733;</span>
-                <p>4/5</p>
-            </div>
-        </div>
-
-        <div id="solidworks" class="skill-details">
-            <h2>SolidWorks</h2>
-            <p>
-                I am proficient in SolidWorks, having worked extensively with the software for the past 7 months. <br>
-                My experience includes building detailed 3D models, performing simulations, and conducting complex 
-                assemblies. This hands-on experience has equipped me with a solid understanding of SolidWorks' 
-                capabilities and applications in design and engineering.
-            </p>
-            <div class="rating">
-                <span class="star filled">&#9733;</span>
-                <span class="star filled">&#9733;</span>
-                <span class="star filled">&#9733;</span>
-                <span class="star filled">&#9733;</span>
-                <span class="star filled">&#9733;</span>
-                <p>5/5</p>
-            </div>
-        </div>
-
-        <div id="matlab" class="skill-details">
-            <h2>MatLab</h2>
-            <p>
-                I am proficient in MATLAB, with 7 months of experience in learning and experimenting with the software. <br> 
-                During this time, I have developed a strong understanding of MATLAB's functionalities, 
-                including data analysis and simulation.
-            </p>
-            <div class="rating">
-                <span class="star filled">&#9733;</span>
-                <span class="star filled">&#9733;</span>
-                <span class="star filled">&#9733;</span>
-                <span class="star">&#9733;</span>
-                <span class="star">&#9733;</span>
-                <p>3/5</p>
-            </div>
-        </div>
-
-        <div id="ccna" class="skill-details">
-            <h2>Networking</h2>
-            <p>
-                I am currently learning CCNA, and while I am still in the process of deepening my knowledge, 
-                I am capable of managing and configuring simple home and office networks. This includes setting up 
-                network devices, troubleshooting connectivity issues, and ensuring network security.
-            </p>
-            <div class="rating">
-                <span class="star filled">&#9733;</span>
-                <span class="star filled">&#9733;</span>
-                <span class="star">&#9733;</span>
-                <span class="star">&#9733;</span>
-                <span class="star">&#9733;</span>
-                <p>2/5</p>
-            </div>
-        </div>
-    
-
+      </div>
     </section>
 
-    <footer id="contact" class="contact-section">
-        <h1>Contact Me</h1>
-        <ul class="contact-list">
-            <li>
-                <a href="https://t.me/ermanur21" class="contact-item">
-                    <img src="./pictures/telegram.png" alt="Telegram" class="icon"> Telegram
-                </a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/erma_nur21" class="contact-item">
-                    <img src="./pictures/instagram.png" alt="Instagram" class="icon"> Instagram
-                </a>
-            </li>
-            <li>
-                <a href="mailto:ermiasnursefa@gmail.com" class="contact-item">
-                    <img src="./pictures/email.png" alt="Email" class="icon"> Email
-                </a>
-            </li>
-            <li>
-                <a href="tel:+251913032046" class="contact-item">
-                    <img src="./pictures/phone.svg" alt="Phone" class="icon"> Phone
-                </a>
-            </li>
-        </ul>
-    </footer>
+    <!-- EDUCATION -->
+    <section id="education" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-body">
+              <h3>B.Sc. in Electromechanical Engineering</h3>
+              <p class="timeline-org">Addis Ababa Science and Technology University (AASTU)</p>
+              <p>
+                Currently pursuing my degree on a government-based scholarship. Alongside my coursework,
+                I'm enrolled in specialized programs through the AASTU Cisco Academy:
+              </p>
+              <ul class="tag-list">
+                <li>CCNA — Cisco Certified Network Associate</li>
+                <li>Cisco Cybersecurity Analysis (Cisco scholarship)</li>
+              </ul>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-body">
+              <h3>High School Diploma</h3>
+              <p class="timeline-org">Addis Ketema Secondary and Preparatory School</p>
+            </div>
+          </article>
+        </div>
+        <a href="./pictures/cv.png" download="Ermias_CV.png" class="btn btn-primary">Download CV</a>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <p class="section-sub">Tools and languages I work with, and how confident I am with each.</p>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <h3>C / C++</h3>
+            <p>Solid foundation with intermediate-level code. Completed OOP in C/C++ with an A.</p>
+            <div class="meter" role="img" aria-label="4 out of 5"><span style="width:80%"></span></div>
+          </article>
+          <article class="skill-card">
+            <h3>Python</h3>
+            <p>Comfortable writing intermediate Python, including OOP — earned an A in my program.</p>
+            <div class="meter" role="img" aria-label="4 out of 5"><span style="width:80%"></span></div>
+          </article>
+          <article class="skill-card">
+            <h3>HTML &amp; CSS</h3>
+            <p>Confident building responsive sites; sharpening my skills through the PLP web cohort.</p>
+            <div class="meter" role="img" aria-label="4 out of 5"><span style="width:80%"></span></div>
+          </article>
+          <article class="skill-card">
+            <h3>Arduino</h3>
+            <p>Trained via a KAIST course at AASTU; a year of hands-on microcontroller projects.</p>
+            <div class="meter" role="img" aria-label="4 out of 5"><span style="width:80%"></span></div>
+          </article>
+          <article class="skill-card">
+            <h3>SolidWorks</h3>
+            <p>7+ months building detailed 3D models, simulations, and complex assemblies.</p>
+            <div class="meter" role="img" aria-label="5 out of 5"><span style="width:100%"></span></div>
+          </article>
+          <article class="skill-card">
+            <h3>MATLAB</h3>
+            <p>Hands-on experience with data analysis and simulation over the past 7 months.</p>
+            <div class="meter" role="img" aria-label="3 out of 5"><span style="width:60%"></span></div>
+          </article>
+          <article class="skill-card">
+            <h3>Networking</h3>
+            <p>Studying CCNA; able to set up and troubleshoot simple home and office networks.</p>
+            <div class="meter" role="img" aria-label="2 out of 5"><span style="width:40%"></span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- CONTACT -->
+  <footer id="contact" class="footer">
+    <div class="container">
+      <h2 class="section-title">Let's Connect</h2>
+      <p class="section-sub">Open to collaborations, internships, and a good engineering conversation.</p>
+      <ul class="contact-list">
+        <li><a href="https://t.me/ermanur21" class="contact-item"><img src="./pictures/telegram.png" alt="" class="icon"> Telegram</a></li>
+        <li><a href="https://www.instagram.com/erma_nur21" class="contact-item"><img src="./pictures/instagram.png" alt="" class="icon"> Instagram</a></li>
+        <li><a href="mailto:ermiasnursefa@gmail.com" class="contact-item"><img src="./pictures/email.png" alt="" class="icon"> Email</a></li>
+        <li><a href="tel:+251913032046" class="contact-item"><img src="./pictures/phone.svg" alt="" class="icon"> Phone</a></li>
+      </ul>
+      <p class="copyright">© <span id="year"></span> Ermias Nursefa. Built with HTML &amp; CSS.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile nav toggle
+    const toggle = document.querySelector('.nav-toggle');
+    const links = document.querySelector('.nav-links');
+    toggle.addEventListener('click', () => {
+      const open = links.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open);
+      toggle.classList.toggle('is-open', open);
+    });
+    links.querySelectorAll('a').forEach(a =>
+      a.addEventListener('click', () => {
+        links.classList.remove('open');
+        toggle.classList.remove('is-open');
+        toggle.setAttribute('aria-expanded', false);
+      })
+    );
+    // Sticky header shadow on scroll
+    const header = document.querySelector('.site-header');
+    window.addEventListener('scroll', () =>
+      header.classList.toggle('scrolled', window.scrollY > 8)
+    );
+    // Current year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
